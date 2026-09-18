@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 :root {
     --header-height: 60px;
 }
@@ -26,7 +34,7 @@ header {
 }
 
 .logo>h1 {
-    color: var(--text__color);
+    color: #44291F
 }
 
 .navigation {
@@ -36,7 +44,7 @@ header {
 
 .nav {
     transition: all 1s;
-    color: var(--text__color);
+    color: #44291F
 }
 
 .nav:hover {
@@ -319,3 +327,4 @@ header {
 body {
     background-color: #F4EADF;
 }
+
